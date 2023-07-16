@@ -5,9 +5,6 @@ This solutions deploys the resources necessary to configure a voicemail system t
 
 The master and development branches have been updated to account for the recent S3 changes.  Updated CloudFormation Templates and deployment instructions can be [found here](https://aws-contact-center-blog.s3.us-west-2.amazonaws.com/voicemail-s3-default-acl-issue/vmv1s3fix.zip)
 
-## Development Branch
-We have added a new branch to this solution: the "development" branch. The "development" branch contains the same solution, but has a simplified build system that removes complexities introduced by the AWS Solution. If you would like to pull down this code to modify it for your own testing, you should use the "development" branch. The "development" branch is where we will accept PRs and continue to build out the Voicemail solution with more functionality based on feedback from users. We will update the "master" branch with changes from the "development" branch twice a year.
-
 ## Running unit tests for customization
 * Clone the repository, then make the desired code changes
 * Install jest
